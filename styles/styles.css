@@ -1,7 +1,32 @@
-body {
+body {/*Comment goes here*/
 	background-color:#ffcc66;
 	text-align:center;
 	font-family:helvetica;
+	margin-bottom:0px;
+	margin-top:0px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.banner{
+	text-align:center;
+	height:100px;
+	background-color:#ffaa00;
+	margin-bottom:auto;
+	margin-top:auto;
+	margin-left:auto;
+	margin-right:auto;
+	color:#0066ff;
+	padding-top:50px;
+	
+	
+}
+.nav{
+	height:30px;
+	color:#0066ff;
+	text-align:center;
+	background-color:#ffaa00;
+	font-size:20px;
+	
 }
 h1 {
 	text-align:center;
