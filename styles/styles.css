@@ -1,0 +1,39 @@
+body {
+	background-color:#ffcc66;
+	text-align:center;
+	font-family:helvetica;
+}
+h1 {
+	text-align:center;
+	color:#800000;
+}
+h2 {
+	text-align:center;
+	color:#0066ff
+}
+a:link {
+	color:#006600;
+}
+a:visited {
+	color:#ff00ff;
+}
+a:hover {
+	color:#ffff00;
+}
+a:active {
+	color:#ff0000;
+}
+.harrastusOtsikot {
+	text-align:left;
+	color:#0066ff
+}
+.harrastusAsiaa {
+	text-align:left;
+}
+#videopelit {
+	text-align:left;
+}
+#portfolioOtsikko {
+	text-align:center;
+	color:#0066ff
+}
