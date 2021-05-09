@@ -1,0 +1,73 @@
+body {
+	font-family:arial;
+	margin:0;
+	text-align:left;
+	background-color:#ff9933;
+}
+#page{
+	width:960px;
+	background-color:#cc6699;
+	height:660px;
+	margin:0 auto;
+	border:1px dashed black;
+}
+#header{
+	background-color:#33cc33;
+	height:80px;
+}
+#logo, #keski, #oikea{
+	width:318px;
+	background-color:#0099ff;
+	height:50px;
+	float:left;
+	text-align:center;
+	padding-top:30px;
+}
+#logo{
+	border:1px solid black;
+}
+#keski{
+	
+	border:1px solid blue;
+}
+#oikea{
+	
+	border:1px solid red;
+}
+#menu, #footer{
+	background-color:#009900;
+	width:958px;
+	height:23px;
+	float:left;
+	text-align:center;
+	padding-top:5px;
+}
+#menu{
+	border:1px dotted yellow;
+}
+#content{
+	background-color:#006699;
+	float:left;
+	width:960px;
+	height:520px;
+}
+#content_left, #content_right{
+	background-color:#9966ff;
+	width:410px;
+	height:180px;
+	border:1px solid black;
+	text-align:center;
+	padding:40px 10px 0px 10px;
+	border-radius:12px;
+}
+#content_left{
+	float:left;
+	margin:20px 10px 10px 20px;
+}
+#content_right{
+	float:right;
+	margin:20px 20px 10px 10px;
+}
+#footer{
+	border:1px solid red;
+}
