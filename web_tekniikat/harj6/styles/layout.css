@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Oswald:wght@500&display=swap');
+body{
+	margin:0;
+	font-size:100%;
+	font-family:Lato, sans-serif;
+	
+}
+article.page{
+	max-width:90%;
+	background-color:#ffcc66;
+	/*height:60em;*/
+	margin:0 auto;
+}
+header{
+	padding:0.1em;
+	background-color:#ffaa00;
+	color:#0066ff;
+	font-size:150%;
+	text-align:center;
+	letter-spacing:0.1875em;
+}
+nav, footer{
+	height:1.875em;
+	background-color:#575757;
+	color:#f7f5ee;
+	text-align:center;
+	/*padding-top:0.3em;*/
+}
+section{
+	background-color:#ffcc66;
+	width:100%;
+	/*height:48.5875em;*/
+	overflow:auto;
+}
+section.content_left, section.content_right{
+	width:45%;
+	background-color:#f7f5ee;
+	border:0.0625em solid #ac9675;
+	margin-top:1.25em;
+	margin-bottom:1.25em;
+	border-radius:0.75em;
+	float:left;
+	padding:0.625em 0.9375em 0.625em 0.9375em;
+}
+section.content_left{
+	margin-left:1.25em;
+	float:left;
+}
+section.content_right{
+	margin-right:1.25em;
+	float:right;
+}
+footer{
+	clear:both;
+	font-style:italic;
+	padding-top:0.3em;
+	height:1.575em;
+}
+
+/*section.textStyle{
+	text-align:left;
+	float:left;
+	padding:0.625em 0.9375em 0.625em 0.9375em;
+}*/
+
+img{
+	width:100%;
+	height:auto;
+	padding:0.3125em 0.3125em 0.3125em 0.3125em;
+}
+section.kuva{
+	display:block;
+	margin:0 auto;
+}
+ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	text-align:center;
+	
+}
+
+li {
+	display:inline-block;
+	padding:0;
+	
+}
+
+li a {
+	display:inline-block;
+	color:white;
+	text-align:center;
+	padding-left:1em;
+	padding-right:1em;
+	text-decoration:none;
+	height:1.675em;
+	padding-top:0.2em;
+}
+
+a:hover:not(.active) {
+	background-color:#ffaa00;
+}
+
+.active {
+	background-color:#4CAF50;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family:Oswald, sans-serif;
+	/*font-size:100%;*/
+}
+
+.fa-icons{
+	color:#66a3ff;
+	margin-right:0.2em;
+}
+
+.fa-icons2{
+	font-size:1.5em;
+	padding-left:0.5em;
+}
+
+.fa-pen{
+	color:#ff8c1a;
+	font-size:1.5em;
+	padding-left:0.5em;
+}
+
+.fa-gamepad{
+	color:#8c8c8c;
+	font-size:1.5em;
+	padding-left:0.5em;
+}
+
+.fa-home{
+	color:#ffffff;
+	margin-right:0.2em;
+}
+
+.fa-book{
+	color:#cc6600;
+	margin-right:0.2em;
+}
+.fa-address-book{
+	margin-right:0.2em;
+}
