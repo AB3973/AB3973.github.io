@@ -2,40 +2,48 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" href="styles/styles.css">
-<title>Joni Korkiakoski</title> 
-
+<link rel="stylesheet" href="css/style.css">
+<link  href="css/lightbox.css" rel="stylesheet">
+<title>Joni Korkiakoski</title>
 </head>
 <body>
-
-<h1 class="banner">Joni Korkiakoski - Harrastukset</h1>
-<p class="nav"><a href="index.html">Etusivu</a> | Harrastukset | <a href="portfolio.html">Portfolio</a></p>
-
-<h2 class="harrastusOtsikot">Videopelit</h2>
-<p class="harrastusAsiaa">
-	Olen pelannut videopelejä tenavasta saakka. Aikaisin laite jolla muistan pelanneeni oli <strong>NES(Nintendo Entertainment System)</strong> konsoli. <br>
-	Pelejä joita muistan pelanneeni olivat Blaster Master, Darkwing Duck, Batman: Return of the Joker ja Werewolf: The Last Warrior. <br> 
-	Nykyään pelailen enemmän tietokoneella mutta retro pelit ovat suosikkejani. Olen myöskin miettinyt oman pelin kehitystä mutta se on tällä hetkellä vain idea.
-</p>
-
-<h2 class="harrastusOtsikot">Tietokoneet</h2>
-<p class="harrastusAsiaa">
-	Olen nuoresta lähtien ollut kiinnostunut tietokoneista. Ensimmäisen oman koneeni hankin 15 vuotiaana. <br>
-	Sitä on tullut siitä lähtien päiviteltyä ja välistä on tullu hankittua kokonaan uusi kone. <br>
-	<strong>Ainoa osa mitä en ole vielä vaihtanut on tämä näppäimistö</strong> joka edelleen toimii vuosien käytön jälkeen.
-</p>
-
-<h2 class="harrastusOtsikot">Pulmapelit</h2>
-<p class="harrastusAsiaa">
-	Pulmapelit ovat minulle rattoisaa ajanvietettä. <br>
-	Kun puhun pulmapeleistä tarkoitan sudokuja, ongelman ratkaisu pelejä, picrosseja ja vähän kaikkea siltä väliltä. <br>
-	<strong>Miinaharavaa</strong> olen ratkonut melko paljon viimme aikoina.
-</p>
-
-
-<h2>Yhteystiedot:</h2>
-<address>
-Email: AB3979@student.jamk.fi
-</address>
+	<!--article alku-->
+	<article>
+		<header>
+			<h1>Joni Korkiakoski - Harrastukset</h1>
+			
+		</header>
+		
+		<nav>
+			<ul>
+				<li><a href="indeksi.html">Etusivu</a></li>
+				<li><a class="active">Harrastukset</a></li>
+				<li><a href="portfolio.html">Portfolio</a></li>
+			</ul>
+		</nav>
+		
+		<section>
+			<section class="content_left">
+				<h2>Tietokoneet</h2>
+				<p class="para">Olen jo pienestä pitäen ollut kiinnostunut elektroniikasta joten tietokoneet harrastuksena ei ole mikään ihme.</p>
+				<h2>Videopelit</h2>
+				<p class="para">Videopelejä olen pelannut melkein koko ikäni. Ensimmäinen konsoli jolla pääsin pelaamaan oli Nintendo Entertainment System [NES]. Seuraava konsoli joka meidän perheeseen hankittiin oli Playstation. Siitä tulikin suosikki konsolini.<br> 
+				Sen joulun vielä muistan kun saatiin Playstation 2. Lahjaksi saatiin Spyro ja Crash Bandicoot pelit joita sitten koko joulupäivä pelattiin. PC:llä aloin pelaamaan enemmän kun yhtiö nimeltä Valve julkaisi Steam:n. </p>
+				<h2>Pulmapelit</h2>
+				<p class="para">Itse luokkitelen pulmapeleiksi sudokut, ristisanat, picrossit/nonogrammit ja muut pohdintaa vaativat ajanvietteet. Sudokut ovat olleet suosikkejani jo vuosia mutta viimme aikoina olen ollut kiinnostunut picrossesta. </p>
+			</section>
+			
+			<section class="content_right">
+				<h2>Kuvia</h2>
+				<a href="images/image-1.jpg" data-lightbox="Pulmapeli" data-title="Picross - Lamppu"><img class="galleria" src="images/image-1.jpg" alt="Picross josta tuli esiin lamppu"/></a>
+			</section>			
+		</section>
+		
+		<footer>
+		Email: korkiakoskijoni@gmail.com LinkedIn:<a href="https://www.linkedin.com/in/joni-korkiakoski-767b18200">LinkedIn</a>
+		</footer>
+	</article> <!--article loppu-->
+<script src="js/lightbox-plus-jquery.js"></script>
 </body>
 </html>
+<!-- -->

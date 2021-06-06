@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Source+Sans+Pro&display=swap');
+body{
+	/*Temp color orange*/
+	font-size:100%;
+	font-family:"Source Code Pro", sans-serif;
+	background-color:#80ccff;
+	margin:0;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family:"Source Sans Pro", sans-serif;
+}
+article{
+	/*Temp color green*/
+	background-color:#bfe5ff;
+	max-width:95%;
+	margin:0 auto;
+}
+header{
+	/*Temp color cyan*/
+	background-color:#66ffff;
+	font-size:200%;
+	text-align:center;
+	padding:0.1em;
+	background-image:url('../images/banner-1b.png');
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	background-size: cover;
+	color:#fff;
+}
+nav{
+	/*Temp color purple*/
+	background-color:#00385e;
+	color:#f7f5ee;
+	text-align:center;
+	float:right;
+	width:12%;
+	height:6em;
+	margin-left:0.2em;
+	margin-right:0.2em;
+	/*padding:0.5em;*/
+	border-radius:0.75em;
+}
+section{
+	/*Temp color dark blue*/
+	background-color:#00385e;
+	padding:0.5em;
+	overflow:auto;
+	min-width:25em;
+}
+section.content_left, section.content_right{
+	/*Temp color turquoise*/
+	background-color:#fff;
+	text-align:center;
+	width:45%;
+	border:0.0625em solid #000000;
+	height:auto;
+	border-radius:0.75em;
+}
+section.content_left{
+	margin-left:1.25em;
+	float:left;
+}
+section.content_right{
+	margin-right:1.25em;
+	float:right;
+}
+section.big{
+	
+}
+footer{
+	/*Temp color brown*/
+	background-color:#fff;
+	padding:0.5em;
+	text-align:center;
+}
+
+ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	text-align:left;	
+}
+
+li {
+	display:block;
+	padding:0;
+}
+li a {
+	display:inline-block;
+	color:white;
+	text-align:center;
+	padding-left:1em;
+	padding-right:1em;
+	text-decoration:none;
+	height:1.675em;
+	padding-top:0.2em;
+}
+a:hover:not(.active) {
+	background-color:#80ccff;
+	border-radius:0.75em;
+}
+
+.active {
+	background-color:#80ccff;
+	border-radius:0.75em;
+}
+img.omaKuva{
+	width:25em;
+	height:auto;
+}
+img.galleria{
+	width:10em;
+	height:auto;
+}
+p.para{
+	text-align:left;
+}
