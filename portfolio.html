@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="fi">
 <head>
+<!--Skripti font awesome ikoneille-->
+<script src="https://kit.fontawesome.com/7ae93ee570.js" crossorigin="anonymous"></script>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="css/style.css">
 <link  href="css/lightbox.css" rel="stylesheet">
@@ -9,35 +11,39 @@
 <body>
 	<!--article alku-->
 	<article>
+		<!--header alku-->
 		<header>
-			<h1>Joni Korkiakoski - Portfolio</h1>
-			
-		</header>
-		
+			<h1>Joni Korkiakoski - Portfolio</h1>		
+		</header> <!--header loppu-->
+		<!--nav alku-->
 		<nav>
 			<ul>
-				<li><a href="indeksi.html">Etusivu</a></li>
-				<li><a href="harrastukset.html">Harrastukset</a></li>
-				<li><a class="active">Portfolio</a></li>
+				<li><a href="indeksi.html"><i class="fas fa-home"></i> Etusivu</a></li>
+				<li><a href="harrastukset.html"><i class="fas fa-icons"></i> Harrastukset</a></li>
+				<li><a class="active"><i class="fas fa-book"></i> Portfolio</a></li>
+				<li><a href="yhteystiedot.html"><i class="fas fa-address-book"></i> Yhteystiedot</a></li>
 			</ul>
-		</nav>
-		
+		</nav> <!--nav loppu-->
+		<!--section alku-->
 		<section>
+			<!--section "content_left" alku-->
 			<section class="content_left">
 				<h2>Omat sivuni</h2>
 				<p class="para">Nämä sivut.</p>
-			</section>
-			
+			</section> <!--section "content_left" loppu-->
+			<!--section "content_right" alku-->
 			<section class="content_right">
 				<h2>Kuvia</h2>
+				<a href="images/portfoliokuva-1.png" data-lightbox="Portfolio" data-title="Kuva omasta sivusta"><img class="galleria" src="images/portfoliokuva-1.png" alt="Kuva omasta sivusta"/></a>
 				<p class="para">Päivittelen näitä sivuja kunhan saan materiaalia kasaan jota tänne laittaa.</p>
-			</section>			
-		</section>
-		
+			</section>	<!--section "content_right" loppu-->		
+		</section> <!--section loppu-->
+		<!--footer alku-->
 		<footer>
-		Email: korkiakoskijoni@gmail.com LinkedIn:<a href="https://www.linkedin.com/in/joni-korkiakoski-767b18200">LinkedIn</a>
-		</footer>
+		Tekijä: Joni Korkiakoski
+		</footer> <!--footer loppu-->
 	</article> <!--article loppu-->
+<!--Lightbox kuva albumin skripti-->
 <script src="js/lightbox-plus-jquery.js"></script>
 </body>
 </html>

@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="fi">
 <head>
+<!--Skripti font awesome ikoneille-->
+<script src="https://kit.fontawesome.com/7ae93ee570.js" crossorigin="anonymous"></script>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="css/style.css">
 <link  href="css/lightbox.css" rel="stylesheet">
@@ -9,20 +11,23 @@
 <body>
 	<!--article alku-->
 	<article>
+		<!--header alku-->
 		<header>
 			<h1>Joni Korkiakoski - Harrastukset</h1>
 			
-		</header>
-		
+		</header> <!--header loppu-->
+		<!--nav alku-->
 		<nav>
 			<ul>
-				<li><a href="indeksi.html">Etusivu</a></li>
-				<li><a class="active">Harrastukset</a></li>
-				<li><a href="portfolio.html">Portfolio</a></li>
+				<li><a href="indeksi.html"><i class="fas fa-home"></i> Etusivu</a></li>
+				<li><a class="active"><i class="fas fa-icons"></i> Harrastukset</a></li>
+				<li><a href="portfolio.html"><i class="fas fa-book"></i> Portfolio</a></li>
+				<li><a href="yhteystiedot.html"><i class="fas fa-address-book"></i> Yhteystiedot</a></li>
 			</ul>
-		</nav>
-		
+		</nav> <!--nav loppu-->
+		<!--section alku-->
 		<section>
+			<!--section "content_left" alku-->
 			<section class="content_left">
 				<h2>Tietokoneet</h2>
 				<p class="para">Olen jo pienestä pitäen ollut kiinnostunut elektroniikasta joten tietokoneet harrastuksena ei ole mikään ihme.</p>
@@ -31,18 +36,22 @@
 				Sen joulun vielä muistan kun saatiin Playstation 2. Lahjaksi saatiin Spyro ja Crash Bandicoot pelit joita sitten koko joulupäivä pelattiin. PC:llä aloin pelaamaan enemmän kun yhtiö nimeltä Valve julkaisi Steam:n. </p>
 				<h2>Pulmapelit</h2>
 				<p class="para">Itse luokkitelen pulmapeleiksi sudokut, ristisanat, picrossit/nonogrammit ja muut pohdintaa vaativat ajanvietteet. Sudokut ovat olleet suosikkejani jo vuosia mutta viimme aikoina olen ollut kiinnostunut picrossesta. </p>
-			</section>
-			
+			</section> <!--section "content_left" loppu-->
+			<!--section "content_right" alku-->
 			<section class="content_right">
-				<h2>Kuvia</h2>
+				<h2>Kuvia pulmapeleistä</h2>
 				<a href="images/image-1.jpg" data-lightbox="Pulmapeli" data-title="Picross - Lamppu"><img class="galleria" src="images/image-1.jpg" alt="Picross josta tuli esiin lamppu"/></a>
-			</section>			
-		</section>
-		
+				<a href="images/image-2.jpg" data-lightbox="Pulmapeli" data-title="Sudoku"><img class="galleria" src="images/image-2.jpg" alt="Kuva sudokusta"/></a>
+				<a href="images/image-3.jpg" data-lightbox="Pulmapeli" data-title="Metallinen pulmapeli"><img class="galleria" src="images/image-3.jpg" alt="Metallinen 'saatko irrotettua osat toisistaan' pulmapeli"/></a>
+				<a href="images/image-4.jpg" data-lightbox="Pulmapeli" data-title="Metallinen pulmapeli 2"><img class="galleria" src="images/image-4.jpg" alt="Metallinen 'saatko irrotettua osat toisistaan' pulmapeli eri kulmasta katsottuna"/></a>
+			</section>	<!--section "content_right" loppu-->		
+		</section> <!--section loppu-->
+		<!--footer alku-->
 		<footer>
-		Email: korkiakoskijoni@gmail.com LinkedIn:<a href="https://www.linkedin.com/in/joni-korkiakoski-767b18200">LinkedIn</a>
-		</footer>
+		Tekijä: Joni Korkiakoski
+		</footer> <!--footer loppu-->
 	</article> <!--article loppu-->
+<!--Lightbox kuva albumin skripti-->
 <script src="js/lightbox-plus-jquery.js"></script>
 </body>
 </html>
